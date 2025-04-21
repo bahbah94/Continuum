@@ -23,13 +23,13 @@ A high-performance machine learning system built with Rust and Python that enabl
 ## Performance Visualizations
 
 ### Overall Performance Dashboard
-![Performance Dashboard](py/plots/performance_dashboard.png)
+![Performance Dashboard](py/plots/performance_dashboard_20250421_160207.png)
 
 ### Latency Comparison
-![Latency Comparison](py/plots/latency_comparison.png)
+![Latency Comparison](py/plots/latency_comparison_20250421_160207.png)
 
 ### Model Version Timeline (Zero-Downtime Updates)
-![Model Versions](py/plots/model_versions.png)
+![Model Versions](py/plots/model_versions_20250421_160207.png)
 
 ## Getting Started
 
