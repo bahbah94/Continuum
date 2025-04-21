@@ -1,0 +1,13 @@
+[package]
+name = "continuum-py"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "continuum_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+continuum = { path = ".." }
+pyo3 = { version = "0.19", features = ["extension-module"] }
+tokio = { version = "1.28", features = ["rt-multi-thread"] }

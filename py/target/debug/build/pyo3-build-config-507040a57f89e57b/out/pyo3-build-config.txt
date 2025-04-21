@@ -1,0 +1,10 @@
+implementation=CPython
+version=3.10
+shared=true
+abi3=false
+lib_name=python3.10
+lib_dir=/Users/randalllionelkharkrang/.pyenv/versions/3.10.14/lib
+executable=/Users/randalllionelkharkrang/Desktop/CS/ML_project/continuum/py/continuum/bin/python
+pointer_width=64
+build_flags=
+suppress_build_script_link_lines=false

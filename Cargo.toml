@@ -1,0 +1,25 @@
+[package]
+name = "continuum"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Async runtime
+tokio = { version = "1.28", features = ["full"] }
+async-trait = "0.1.88"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+parking_lot = "0.12.3"
+thiserror = "2.0.12"
+
+# Numeric computation
+ndarray = "0.16.1"
+ndarray-linalg = { version = "0.17", features = ["openblas-system"] }
+rand = "0.9.0"
+
+
+# For atomic operations
+crossbeam = "0.8.2"
+
+[lib]
+name = "continuum"
